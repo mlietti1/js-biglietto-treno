@@ -17,4 +17,4 @@ if (etaUtente < 18) {
     prezzoFinale = prezzoIniziale;
 }
 
-document.getElementById('costo-biglietto').innerHTML = prezzoFinale.toFixed(2)
+document.getElementById('costo-biglietto').innerHTML = prezzoFinale.toFixed(2) + '€'

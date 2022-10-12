@@ -10,9 +10,9 @@ const prezzoIniziale = kmUtente * prezzoKm;
 const etaUtente = prompt ('Quanti anni hai?');
 
 if (etaUtente < 18) {
-    prezzoFinale = prezzoIniziale * scontoMinorenni;
+    prezzoFinale = prezzoIniziale - prezzoIniziale * scontoMinorenni;
 }else if (etaUtente >= 65) {
-    prezzoFinale = prezzoIniziale * scontoOver;
+    prezzoFinale = prezzoIniziale - prezzoIniziale * scontoOver;
 }else {
     prezzoFinale = prezzoIniziale;
 }
